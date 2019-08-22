@@ -93,9 +93,9 @@ while active:
     while True:
         again = input("Would you like to roll again? ")
     
-        if yeses.count(again) > 0:
+        if yeses.count(again.lower()) > 0:
             break
-        elif nos.count(again) > 0 or again == 'q':
+        elif nos.count(again.lower()) > 0 or again == 'q':
             active = False
             break
 
