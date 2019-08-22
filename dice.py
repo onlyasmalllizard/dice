@@ -78,7 +78,7 @@ while active:
     if active == False:
         break    
     
-        # after checks are finished, convert times to an integer
+    # after checks are finished, convert times to an integer
     times = int(times)
     
     # roll the die, but it might fall off the table!
